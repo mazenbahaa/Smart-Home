@@ -1,0 +1,30 @@
+/*
+ * MTIMER1_config.h
+ *
+ *  Created on: Jun 13, 2023
+ *      Author: Elkhashab
+ */
+
+#ifndef MTIMER1_MTIMER1_CONFIG_H_
+#define MTIMER1_MTIMER1_CONFIG_H_
+
+/*
+ * Please Config Timer Clock
+ *
+ * MTIMER1_NO_CLK
+ * MTIMER1_PRESCALER_1
+ * MTIMER1_PRESCALER_8
+ * MTIMER1_PRESCALER_64
+ * MTIMER1_PRESCALER_256
+ * MTIMER1_PRESCALER_1024
+ * MTIMER1_EXTCLK_FALL_EDGE
+ * MTIMER1_EXTCLK_RISE_EDGE
+ *
+ */
+
+#define MTIMER1_CLK MTIMER1_PRESCALER_256
+
+#define FCPU 16UL
+
+
+#endif /* MTIMER1_MTIMER1_CONFIG_H_ */
