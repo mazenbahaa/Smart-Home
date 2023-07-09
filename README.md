@@ -1,2 +1,2 @@
 # Smart-Home
-NTI-AVR Final Project aims to Implement All Concept we learned
+NTI AVR Project aims to Implement Concepts we have learned during the Course
